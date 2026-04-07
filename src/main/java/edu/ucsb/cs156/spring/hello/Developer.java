@@ -36,7 +36,7 @@ public class Developer {
     public static Team getTeam() {
         Team team = new Team("s26-04");
         team.addMember("Annie Y.");
-        team.addMember("Eric");
+        team.addMember("Erik");
         team.addMember("Ertan");
         team.addMember("Tanvi");
         team.addMember("Vanessa");
