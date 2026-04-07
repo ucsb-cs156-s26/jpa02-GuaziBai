@@ -37,27 +37,27 @@ public class DeveloperTest {
     }
 
     @Test
-    public void getTeam_returns_team_with_Annie() {
+    public void getTeam_returns_team_with_ANNIE() {
         Team t = Developer.getTeam();
-        assertTrue(t.getMembers().contains("Annie Y."), "Team should contain Annie Y.");
+        assertTrue(t.getMembers().contains("ANNIE."), "Team should contain ANNIE.");
     }
 
     @Test
-    public void getTeam_returns_team_with_Eric() {
+    public void getTeam_returns_team_with_ERIK() {
         Team  t = Developer.getTeam();
-        assertTrue(t.getMembers().contains("Erik"),"Team should contain Eric");
+        assertTrue(t.getMembers().contains("ERIK"),"Team should contain ERIK");
     }
 
     @Test
-    public void getTeam_returns_team_with_Ertan() {
+    public void getTeam_returns_team_with_ERTAN() {
         Team  t = Developer.getTeam();
-        assertTrue(t.getMembers().contains("Ertan"),"Team should contain Ertan");
+        assertTrue(t.getMembers().contains("MEHMET ERTAN"),"Team should contain MEHMET ERTAN");
     }
 
     @Test
-    public void getTeam_returns_team_with_Tanvi() {
+    public void getTeam_returns_team_with_TANV() {
         Team  t = Developer.getTeam();
-        assertTrue(t.getMembers().contains("Tanvi"),"Team should contain Tanvi");
+        assertTrue(t.getMembers().contains("TANVI"),"Team should contain TANV");
     }
 
     @Test
@@ -67,9 +67,9 @@ public class DeveloperTest {
     }
 
     @Test
-    public void getTeam_returns_team_with_Vincent() {
+    public void getTeam_returns_team_with_VINCENT() {
         Team  t = Developer.getTeam();
-        assertTrue(t.getMembers().contains("Vincent"),"Team should contain Vincent");
+        assertTrue(t.getMembers().contains("VINCENT BATHANH"),"Team should contain VINCENT BATHANH");
     }
 
     // TODO: Add additional tests as needed to get to 100% jacoco line coverage, and
