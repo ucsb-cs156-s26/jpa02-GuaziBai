@@ -51,7 +51,7 @@ public class DeveloperTest {
     @Test
     public void getTeam_returns_team_with_ERTAN() {
         Team  t = Developer.getTeam();
-        assertTrue(t.getMembers().contains("MEHMET ERTAN"),"Team should contain MEHMET ERTAN");
+        assertTrue(t.getMembers().contains("ERTAN"),"Team should contain ERTAN");
     }
 
     @Test
@@ -69,7 +69,7 @@ public class DeveloperTest {
     @Test
     public void getTeam_returns_team_with_VINCENT() {
         Team  t = Developer.getTeam();
-        assertTrue(t.getMembers().contains("VINCENT BATHANH"),"Team should contain VINCENT BATHANH");
+        assertTrue(t.getMembers().contains("VINCENT"),"Team should contain VINCENT");
     }
 
     // TODO: Add additional tests as needed to get to 100% jacoco line coverage, and
